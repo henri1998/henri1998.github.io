@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <style>
+
+			body{
+				background: #acaaaa;
+				padding: 30px;
+			}
+
+			.thumb{
+				background-size: 140px 140px;
+				width: 140px;
+				height: 140px;
+				border-radius: 5px;
+				border: 1px solid black;
+				box-shadow: 3px 3px 3px 0px #555;
+				margin: 20px;
+				float: left;
+			}
+
+			.thumb-label{
+				font-size: large;
+				text-align: center;
+				font-weight: bold;
+				color: rgb(187, 186, 186);
+				text-shadow:black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px, black 0 0 5px;
+				height: 100%;
+			}
+
+			.unhandled_container{
+				max-width: 1200px;
+				margin: auto;
+				margin-top: 50px;
+
+			}
+
+			.unhandled{
+				width: 30%;
+				padding-top:8px;
+				padding-bottom:8px;
+				padding-left: 10px;
+				float:left;
+				font-family: "Kanit", sans-serif;
+				font-size: 13px;
+				border: 1px solid rgba(0, 0, 0, 0);
+
+			}
+
+			.unhandled:hover{
+				border: 1px solid rgba(200, 200, 200, 1);
+				border-radius: 4px;
+				background: white;
+			}
+
+			a{
+				color: #555555;
+			}
+
+			h1{
+				font-weight: 500;
+				color: rgb(20, 20, 20);
+				font-family: "Kanit", sans-serif;
+			}
+
+			#samples_container{
+				display: grid;
+				grid-template-columns: 70% 30%;
+				grid-gap: 10px;
+				grid-template-rows: auto auto;
+
+				max-width: 1300px;
+				margin: auto;
+			}
+
+
+			#thumb_container{
+				grid-column-start: 1;
+				grid-column-end: 1;
+				grid-row-start: 1;
+				grid-row-end: 1;
+
+				max-width: 1200px;
+				margin: auto;
+				margin-top: 20px
+			}
+
+			#external_container{
+				grid-column-start: 2;
+				grid-column-end: 2;
+				grid-row-start: 1;
+				grid-row-end: span 2;
+
+				margin-top: 20px
+			}
+
+			#showcase_container{
+				grid-column-start: 1;
+				grid-column-end: 1;
+				grid-row-start: 2;
+				grid-row-end: 2;
+
+				max-width: 1200px;
+				margin: auto;
+				margin-top: 20px;
+			}
+
+			</style>
+
+		<title>lidar</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="../css/skeleton.min.css">		
+	
+
+
+
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item navbar-button title"><b>Exemples de présentation de relevés Lidar  </b> </li>
+            
+            <li class="navbar-itemr mobile"><a class="navbar-button button" href="../index.html">Retour</a></li>
+           <br><br><br>
+        </ul>
+      </head>
+				<div id="samples_container">
+
+					<div id="thumb_container">
+            
+					
+						
+		<a href="viewer.html" target="_blank" style="display: inline-block">
+			<div class="thumb" style="background-image: url('thumbnails/viewer.png'); ">
+				<div class="thumb-label">Nuage de points topo </div>
+			</div>
+		</a>
+		
+			
+		
+		<a href="elevation_profile.html" target="_blank" style="display: inline-block">
+			<div class="thumb" style="background-image: url('thumbnails/elevation_profile.png'); ">
+				<div class="thumb-label">Profil d'élevation</div>
+			</div>
+		</a>
+		
+		<a href="measurements.html" target="_blank" style="display: inline-block">
+			<div class="thumb" style="background-image: url('thumbnails/measurements.png'); ">
+				<div class="thumb-label">Mesures</div>
+			</div>
+		</a>
+		
+		<a href="ept_binary.html" target="_blank" style="display: inline-block">
+			<div class="thumb" style="background-image: url('thumbnails/lion_las.png'); ">
+				<div class="thumb-label">Nuage de points</div>
+			</div>
+		</a>
+		
+      </div>
+     
+  
+
+
+   
+    
+
+    
+</body>
+
+</html>
